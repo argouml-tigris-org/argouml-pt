@@ -17,15 +17,15 @@
 <h3>Missão</h3>
 
 <p>
-O objectivo deste projecto é criar uma localização completa do ArgoUML em 
-Português e um centro para a comunidade do mesmo. Pretende-se que exista uma 
-<i>mailing-list</i> localizada.
+O objectivo deste sub-projecto é criar uma localização completa do ArgoUML em Português.
 </p>
 
 <p>
-Para este projecto escolhemos o Português de Portugal. Se preferir Português do
-Brasil (ou outra variação do Português), terá de o discutir com Linus Tolke, de
-modo a que ele crie outro projecto para o efeito.
+A localização para o Português do Brasil é realizada no
+<a href="http://argouml-pt-br.tigris.org/">sub-projecto argouml-pt-br</a>.
+Para realizar a localização de outras variações do Português
+terá de se realizar uma proposta na lista de email dos developers do ArgoUML de
+modo a que se crie outro sub-projecto para o efeito.
 </p>
 
 <h3>Estado</h3>
@@ -34,22 +34,66 @@ modo a que ele crie outro projecto para o efeito.
 Parte integrante do projecto principal desde a versão de desenvolvimento 0.21.3.
 </p>
 <p>
-Embora a tradução da aplicação esteja praticamente completa, alguns termos 
-são discutíveis. Também é possível que existam alguns erros, visto que ainda não 
-foi muito testado. Por outras palavras, é bom o suficiente para
-testar, mas não para produção.
+A tradução da aplicação está completa, embora alguns termos sejam discutíveis.
+A tradução ainda não foi actualizada para o Acordo Ortográfico (AO).
 </p>
 
+<p>
+Existem alguns erros que estão documentados no
+<a href="http://argouml-jenkins1.dyndns.org:8080/job/argouml-pt/">Jenkins job do argouml-pt</a>.
+Como a consulta da lista de falhas é laboriosa, segue uma lista de trabalho em Inglês pois é a
+língua em que os erros são reportados.
+<strong>FEITO</strong> significa que foi realizada uma alteração com o intuito de resolver
+o problema.
+No futuro esta lista será removida se os erros forem confirmados como resolvidos.
+</p>
+<ul>
+  <li>org.argouml.i18n.CheckKey.localizedKeyIsInOrigin(CheckKey.java:147)<br>
+    Message: "Key &lt;key&gt; does not exist in root bundle."<br>
+    Keys:
+  <ul>
+    <li>CasosDeUso<strong>FEITO</strong></li>
+    <li>Para<strong>FEITO</strong></li>
+  </ul>
+  </li>
+  <li>org.argouml.i18n.CheckKey.keyIsLocalized(CheckKey.java:156)<br>
+    Message: "Key &lt;key&gt; localized for pt."<br>
+    Keys:
+    <ul>
+      <li>menu.item.action.generate-code.mnemonic<strong>FEITO</strong></li>
+      <li>menu.popup.transform<strong>FEITO</strong></li>
+      <li>menu.item.action.generate-code-for-project.mnemonic<strong>FEITO</strong></li>
+      <li>menu.item.action.settings-for-project-code-generation.mnemonic<strong>FEITO</strong></li>
+      <li>action.generate-code<strong>FEITO</strong></li>
+      <li>action.aggregation.none<strong>FEITO</strong></li>
+      <li>action.aggregation.aggregate<strong>FEITO</strong></li>
+      <li>action.aggregation.composite<strong>FEITO</strong></li>
+      <li>button.select-currently-selected<strong>FEITO</strong></li>
+      <li>critics.CrMissingAttrName-ins<strong>FEITO</strong></li>
+      <li>critics.CrMissingAttrName-sug<strong>FEITO</strong></li>
+    </ul>
+  </li>
+  <li>org.argouml.i18n.CheckKey.localizedKeyIsInOrigin(CheckKey.java:147)<br>
+    Message: "Key &lt;key&gt; does not exist in root bundle."<br>
+    Keys:
+    <ul>
+      <li>menu.item.generate-selected-classes.mnemonic<strong>FEITO</strong></li>
+      <li>menu.item.generate-code-for-project.mnemonic<strong>FEITO</strong></li>
+      <li>menu.item.generate-all-classes.mnemonic<strong>FEITO</strong></li>
+      <li>menu.item.settings-for-project-code-generation.mnemonic<strong>FEITO</strong></li>
+    </ul>
+  </li>
+</ul>
 
 <h3>Recursos</h3>
 
 <p>
-	As referências em termos de terminologia são as seguintes:
-	<ul>
-		<li>os resultados de <a href="http://berlin.inesc.pt/gtti/gtti.html">GTTI</a>, um projecto entretanto terminado.</li>
-		<li>A. Silva and C. Videira, <a href="http://www.centroatlantico.pt/titulos/tecnologias/uml2-vol1.php3">UML: Metodologias e Ferramentas CASE</a> (2ª edição), Centro Atlântico, 2005</li>
-	</ul>
+As referências em termos de terminologia são as seguintes:
 </p>
+<ul>
+  <li>Os resultados de <a href="http://berlin.inesc.pt/gtti/gtti.html">GTTI</a>, um projecto entretanto terminado.</li>
+  <li>A. Silva and C. Videira, <a href="http://www.centroatlantico.pt/titulos/tecnologias/uml2-vol1.php3">UML: Metodologias e Ferramentas CASE</a> (2ª edição), Centro Atlântico, 2005</li>
+</ul>
 
 <p>
 Nenhuma tradução é completamente correcta e as pessoas cometem erros. Se tem
@@ -62,8 +106,7 @@ qualquer coisa. Toda a ajuda é bem vinda!
 <p>
 In English for any non-Portuguese that may stumble over this page:
 The purpose of this project is
-to create a complete localization of ArgoUML in Portuguese and
-to be the center for the ArgoUML community in Portuguese.
+to create and maintain a complete localization of ArgoUML in Portuguese.
 </p>
 
 <hr>
