@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe1ced90_ad02a88a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1016795
+      },
+      "writtenOn": "2022-08-21T14:38:46Z",
+      "side": 1,
+      "message": "I have verified that this can find the parentpom without the parentpom dir checked out and with an empty local maven repository.",
+      "revId": "8ffd969114645086df2a67034cc23eef144bff97",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
